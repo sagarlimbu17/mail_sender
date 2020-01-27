@@ -1,10 +1,7 @@
+import openpyxl
 from django.contrib import messages
 from django.contrib.auth import authenticate, login
 from django.shortcuts import render, redirect
-
-
-# Create your views here.
-
 
 
 def index(request):
@@ -25,3 +22,5 @@ def index(request):
 
 def send_mail(request):
     return render(request, 'mail-sender.html')
+
+

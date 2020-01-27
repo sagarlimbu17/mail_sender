@@ -1,5 +1,4 @@
 from django.urls import path
-
 from dashboard.views import admin_dashboard
 
 urlpatterns = [
